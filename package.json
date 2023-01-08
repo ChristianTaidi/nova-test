@@ -1,0 +1,25 @@
+{
+  "name": "nomination-api",
+  "version": "1.0.0",
+  "description": "Small api to handle candidate nominations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Christian Taidi Santana",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "chai-subset": "^1.6.0",
+    "express": "^4.18.2",
+    "inits": "^1.6.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
